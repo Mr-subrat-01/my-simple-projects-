@@ -1,0 +1,223 @@
+ *{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+flex-wrap: wrap;
+     margin: 0;
+     padding: 0;
+    
+
+ }
+ html {
+     scroll-behavior: smooth;
+ }
+ body {
+     background: #252522;
+     color: white;
+ }
+ .navbar {
+     display: flex;
+     align-items: center;  
+     height: 100%;
+     width: 100vw;
+     opacity: 0.7;
+     top: 0;
+     background-color: black;  
+     
+     position: sticky;
+ }
+    
+#logo img {
+
+  height:50px;
+  border-radius: 360px;
+  /*margin: 0 90px 0 40px;*/
+  
+ }
+ ul{
+ display:flex;
+ }
+ ul li{
+ list-style-type: none;
+ }
+  
+ ul li a{
+ display: block;
+ border-radius: 20px;
+ text-decoration: none;
+ padding: 10px 30px ;
+ font-size: 1.3rem;
+ color:white ;
+ margin: 0;
+ }
+ul li a:hover{
+ background: white;
+ color:black;
+ }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.cart a:hover{
+background: gray;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 200px;
+    height: 600px;
+    
+}
+#home::before{
+    content: "";
+    position: absolute;
+     background: url('imgs/body3.jpg') no-repeat center center/cover;
+     
+    height: 650px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.99;
+}
+#home h1 {
+font-size: 3rem;
+    color: white;
+    text-align: center;
+    word-spacing:;
+    
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+.btn{
+  margin-top: 30px;
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 10px ;
+  font-size: 25px;
+  padding: 10px;
+  transition: .5s ease;
+}
+.btn:hover{
+background-color: black;
+color: white;
+width: 200px;
+border: 2px solid white;
+box-shadow: 0 0 10px 0 white inset,
+            0 0 10px 4px white;
+}
+ 
+#home ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+#home ul li {
+ 
+      margin: auto;
+      padding: 90px 20px;
+      font-size: .1rem;
+      color: springgreen;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: warp;
+    
+}
+#services h {
+    font-size: 2.2rem;
+    font-weight: bolder;
+}
+
+ 
+#services div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid #ff4040;
+    border-radius: 20px;
+    background-color: #ffeabf;
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    color: black;
+}
+#services div h1{
+padding: 30px;
+}
+#services div img{
+height: 90px;
+}
+#about h {
+    font-size: 2.2rem;
+    font-weight: bolder;
+}
+#about div img{
+height:50px;
+padding: 50px;
+
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#contact h {
+    font-size: 2.2rem;
+    font-weight: bolder;
+    padding: 50px;
+}
+.contact-box form {
+
+    border: 3px solid wheat;
+     width: 600px;
+   height: 100%;
+   background-color: #eaffff;
+   color: black;
+   
+    
+}
+.contact-box form label {
+    margin: 0;
+    
+}
+.call {
+    display: flex;
+    flex-direction: column;
+}
+.send{
+    margin: 10px;
+    width: 70px;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.end{
+height: 40px;
+width: 100vw;
+background-color: #757575;
+margin-top: 10px;
+}
